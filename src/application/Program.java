@@ -47,14 +47,14 @@ public class Program {
 		System.out.println("Update Completed!");
 		
 		
-		System.out.println("\n\n========== Test 5: seller Delete ==========");
+		System.out.println("\n\n========== Test 6: seller Delete ==========");
 		System.out.println("Enter id for delete teste: ");
 		int id = sc.nextInt();
 		sellerDao.deleteById(id);
 		System.out.println("Delete Complete");
 		
 		
-		
+		sc.close();
 	}
 
 }
